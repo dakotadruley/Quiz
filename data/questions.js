@@ -1,26 +1,26 @@
 const question1 = {
     id: 'q1',
-    title: '',
+    title: 'This is in progress',
     image: '',
-    question: '',
+    question: 'In progress',
     choices: [{
         id: 'q1c1',
-        choice: '',
+        choice: 'this',
         result: '', // plus one to result category
     },
     {
         id: 'q1c2',
-        choice: '',
+        choice: 'is',
         result: '', // plus one to result category
     },
     {
         id: 'q1c3',
-        choice: '',
+        choice: 'in',
         result: '', // plus one to result category
     },
     {
         id: 'q1c4',
-        choice: '',
+        choice: 'progress',
         result: '', // plus one to result category
     }]
 };

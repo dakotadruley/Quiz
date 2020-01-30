@@ -19,3 +19,5 @@
     // The user's result will be renderd on the page with an image, heading and description all specific to their result.
     // STRETCH ... possibly add then a button to show a pie chart breakdown of each category and how much of each result they are?
     // STRETCH ... make a "play again" button
+
+    

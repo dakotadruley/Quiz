@@ -1,4 +1,4 @@
-export default function findById(id, array) {
+export default function findById(array, id) {
     let result = null;
 
     array.forEach(arrayItem => {
