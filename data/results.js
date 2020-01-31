@@ -1,28 +1,33 @@
 export const flower1 = {
-    id: '',
-    title: '',
+    id: 'daffodil',
+    title: 'Your Flower Power is Daffodil',
     image: '',
-    description: '',
+    description: 'Daffodils are often found in medows during the oncoming of summer and represent hope, coontentment and joy. Cheerful togetherness.',
 };
+// cheer, hope, togetherness
 
 export const flower2 = {
-    id: '',
-    title: '',
+    id: 'rose',
+    title: 'Your Flower Power Rose',
     image: '',
-    description: '',
+    description: 'Red roses are an unmistakable expression of love. They covey deep emotions, passion, romance and desire.',
 };
+// passion, romance, desire
 
 export const flower3 = {
-    id: '',
-    title: '',
+    id: 'orchid',
+    title: 'Your Flower Power is Orchid',
     image: '',
-    description: '',
+    description: 'Unique beauty. It symbolizes refinement, thoughtfulness and mature charm. It also symbolizes proud and glorious femininity.',
 };
+// unique, sophisticated, charm
 
 export const flower4 = {
-    id: '',
-    title: '',
+    id: 'magnolia',
+    title: 'Your Flower Power is Magnolia',
     image: '',
-    description: '',
+    description: 'Magnolias symbolize dignity and nobility. They are respectable flowers.' ,
 };
+
+// dignity, nobility, respect
 

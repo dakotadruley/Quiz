@@ -2,18 +2,19 @@ function createChoice(choice) {
     const label = document.createElement('label');
     label.classList.add('choice');
 
-    const radio = document.createElement('input');
-    radio.type = 'radio';
-    radio.name = 'choice';
-    radio.required = true;
-    radio.value = choice.id;
-    label.appendChild(radio);
+    const span = document.createElement('span');
+    span.textContent = choice.description;
+    label.appendChild(span);
 
-    const question = document.getElementById('quizQuestion');
-    question.textContent = choice.question;
-    label.appendChild(question);
-
+    const input = document.createElement('input');
+    input.type = 'radio';
+    input.name = 'choice';
+    input.required = true;
+    input.value = choice.id;
+    label.appendChild(input);
+   
     return label;
+    
 }
 
 export default createChoice;
