@@ -1,12 +1,11 @@
 const question1 = {
-    id: 'q1',
-    title: 'It/s finally friday night! What sounds like the best option?',
+    id: '1',
+    title: 'It is finally friday night! What sounds like the best option?',
     image: '',
-    question: 'In progress',
     choices: [{
         id: 'q1c1',
         description: 'Romantic dinner at home with your lover.',
-        result: 'rose', //would I do flower2++ or rose++? import flowers?
+        result: 'rose',
     },
     {
         id: 'q1c2',
@@ -26,137 +25,132 @@ const question1 = {
 };
 
 const question2 = {
-    id: '',
-    title: '',
+    id: '2',
+    title: 'What is Lorem Ipsum?',
     image: '',
-    question: '',
     choices: [{
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q2c1',
+        description: 'is simply dummy text of the printing and typesetting industry.',
+        result: 'rose', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q2c2',
+        description: 'Lorem Ipsum has been the industry.',
+        result: 'magnolia', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q2c3',
+        description: 'It has survived not only five centuries, but also the leap into electronic typesetting,',
+        result: 'orchid', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q2c4',
+        description: 'It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,',
+        result: 'daffodil', 
     }]
 };
 
 const question3 = {
-    id: '',
-    title: '',
+    id: '3',
+    title: 'Where does it come from?',
     image: '',
-    question: '',
     choices: [{
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q3c1',
+        description: 'Contrary to popular belief, Lorem Ipsum is not simply random text.',
+        result: 'daffodil', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q3c2',
+        description: 'It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.',
+        result: 'orchid', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q3c3',
+        description: 'Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.',
+        result: 'magnolia', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q3c4',
+        description: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.',
+        result: 'rose', 
     }]
 };
 
 const question4 = {
-    id: '',
-    title: '',
+    id: '4',
+    title: 'Why do we use it?',
     image: '',
-    question: '',
     choices: [{
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q4c1',
+        description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+        result: 'orchid', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q4c2',
+        description: 'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.',
+        result: 'rose', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q4c3',
+        description: 'Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.',
+        result: 'magnolia', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q4c4',
+        description: 'Various versions have evolved over the years, sometimes by accident.',
+        result: 'daffodil', 
     }]
 };
 
 const question5 = {
-    id: '',
-    title: '',
+    id: '5',
+    title: 'Where can I get some?',
     image: '',
-    question: '',
     choices: [{
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q5c1',
+        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
+        result: 'rose', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q5c2',
+        description: 'by injected humour, or randomised words which... ',
+        result: 'daffodil', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q5c3',
+        description: 'f you are going to use a passage of Lorem Ipsum.',
+        result: 'magnolia', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q5c4',
+        description: 'you need to be sure there.',
+        result: 'orchid', 
     }]
 };
 
 const question6 = {
-    id: '',
-    title: '',
+    id: '6',
+    title: 'Is this the last question?',
     image: '',
-    question: '',
     choices: [{
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q6c1',
+        description: 'Yes',
+        result: 'orchid', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q6c2',
+        description: 'this',
+        result: 'magnolia', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q6c3',
+        description: 'is',
+        result: 'daffodil', 
     },
     {
-        id: '',
-        description: '',
-        result: '', 
+        id: 'q6c4',
+        description: 'last',
+        result: 'rose', 
     }]
 };
 
