@@ -11,4 +11,3 @@ export default function scoreQuestion(choice, questionId, user) {
     user.completed[questionId] = true;
 }
 
-// aim with this is to add their choice to corresponding result.
