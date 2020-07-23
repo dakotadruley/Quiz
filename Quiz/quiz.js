@@ -44,6 +44,7 @@ const qString = qURL.toString();
 const linkId = document.getElementById('linkId');
 linkId.href = `./?id=${qString}`;
 
+
 quizForm.addEventListener('sumbit', function(e) {
     e.preventDefault();
 
@@ -57,21 +58,7 @@ quizForm.addEventListener('sumbit', function(e) {
     scoreQuestion(choice, question.id, user);
 
     saveUser(user);
-
+    
 });
 
-// render questions
-    // get form from dom
-    // create a label for each choice with span and input inside
-        // get the data for the correct question using the query parameter and findById
-            // put question in a div
-        // for each option or choice render a radio button 
-            // make a label
-            // make a span
-            // add the choice.choice to the span
-            // make an input of: 
-                // type: radio
-                // name: question
-        // for the form, add an event listener on 'submit'
-            // in the event listner get the formData
-            // use the user selection in the form data to udpate the dom and chnage state (increment to their flower score)
+
