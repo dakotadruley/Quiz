@@ -1,3 +1,7 @@
+body {
+    background-color: pink;
+}
+
 footer {
     position: fixed;
     left: 0;

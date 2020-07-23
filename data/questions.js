@@ -165,28 +165,3 @@ const questions = [
 
 export default questions;
 
-///
-// const RAVENCLAW = 'ravenclaw',
-// ...  
-
-// export [{
-//     question: 'You see a snake, what do you do?',
-//     choices: [{
-//         id: `snake-${HUFFLEPUFF}`,
-//         description: 'You befriend it',
-//         result: HUFFLEPUFF,
-//     }, {
-//         id: '',
-//         description: 'You go to the library',
-//         result: RAVENCLAW,
-//     }, {
-//         id: '',
-//         description: 'You torture it',
-//         result: SLYTHERIN,
-//     }, {
-//         id: '',
-//         description: 'You rescue it',
-//         result: GRIFENDOR,
-//     }
-//     ]
-// }]

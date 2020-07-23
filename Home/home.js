@@ -12,6 +12,4 @@ userName.addEventListener('submit', function(e) {
     saveUser(user);
 
     window.location = '../Quiz/?id=1';
-
-
 });

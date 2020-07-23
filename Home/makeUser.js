@@ -21,6 +21,3 @@ export const newMakeUser = (formData) => ({
 });
 
 export default makeUser;
-
-
-// not sure if I will need to add 'questions' data here as well but I think not

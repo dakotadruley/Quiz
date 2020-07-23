@@ -15,21 +15,14 @@ if (hasCompletedQuiz(questions, user)) {
     window.location = '../Results/results.html';
 }
 
-// const quizQuestions = document.getElementById('question');
-
 const searchParams = new URLSearchParams(window.location.search);
 const questionId = searchParams.get('id'); 
 const question = findById(questions, questionId);
-
-// if (!question) {
-//     window.location = '../Home';
-// }
 
 const quizQuestion = document.getElementById('quizQuestion');
 const quizForm = document.getElementById('quizForm');
 const quizChoices = document.getElementById('quizChoices');
 
-// get title of the question and render 
 quizQuestion.textContent = question.title;
 
 question.choices.forEach((choice) => {
