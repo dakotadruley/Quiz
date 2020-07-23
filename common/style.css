@@ -1,0 +1,12 @@
+body {
+    background-color: pink;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+    text-align: center;
+}
