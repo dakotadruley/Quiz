@@ -1,4 +1,3 @@
-
 function createChoice(choice) {
     const label = document.createElement('label');
     label.classList.add('choice');

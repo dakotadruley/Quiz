@@ -1,8 +1,7 @@
 import findById from '../common/findById.js';
 import questions from '../data/questions.js';
 import { flower1, flower2, flower3, flower4 } from '../data/results.js';
-import loadProfile from '../common/loadProfile.js';
-import { getUser, saveUser } from '../data/saveUser.js';
+import { getUser, saveUser, loadProfile } from '../User/user.js';
 import hasCompletedQuiz from './hasCompletedQuiz.js';
 import createChoice from './createChoice.js';
 import scoreQuestion from './scoreQuestion.js';

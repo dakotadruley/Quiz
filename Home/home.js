@@ -1,5 +1,4 @@
-import { saveUser } from '../data/saveUser.js';
-import makeUser from './makeUser.js';
+import { saveUser, makeUser } from '../User/user.js';
 
 const userName = document.getElementById('userName');
 
